@@ -1,7 +1,7 @@
 ; [Rainmeter]
-; RightMouseUpAction=!SkinCustomMenu
-; ContextTitle=Open Settings 
-; ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
+; 	RightMouseUpAction=!SkinCustomMenu
+; 	ContextTitle=Open Settings 
+; 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
 
 ;===========================================================================================
 ;====  Variables  ==========================================================================
@@ -10,7 +10,7 @@
 [Variables]
 	BarW        = 250
 	Font        = Bebas Neue Bold
-	Font2       = Bebas Neue Regular
+	FontLight   = Bebas Neue Regular
 	Font3       = Roboto Lt
 	FontSize    = 27
 	xOffset     = 30
@@ -48,6 +48,9 @@
 	SystemH		=80
 	NetworkH	=70
 	BatteryH    =61
+TimeFormat=12
+Unit=M
+Disk1=mmm
 
 
 ;===========================================================
