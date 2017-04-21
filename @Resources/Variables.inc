@@ -1,45 +1,53 @@
+; [Rainmeter]
+; RightMouseUpAction=!SkinCustomMenu
+; ContextTitle=Open Settings 
+; ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
+
 ;===========================================================================================
 ;====  Variables  ==========================================================================
 ;===========================================================================================
 
 [Variables]
-BarW			= 250
-Font			= Bebas Neue Bold
-Font2			= Bebas Neue Regular
-Font3			= Roboto Lt
+	BarW        = 250
+	Font        = Bebas Neue Bold
+	Font2       = Bebas Neue Regular
+	Font3       = Roboto Lt
+	FontSize    = 27
+	xOffset     = 30
 
 
 ;===========================================================================================
 ;====  Colours  ============================================================================
 ;===========================================================================================
 
-MainColour		= FF8000
-FontColour		= FCFCFC
-BackColour		= 0,0,0,1
-BarColour		= 0,0,0,110
+	MainColour  = FF8000
+	FontColour  = FCFCFC
+	BackColour  = 0,0,0,1
+	BarColour   = 0,0,0,110
 
 
 ;===========================================================================================
 ;====  Player  =============================================================================
 ;===========================================================================================
 
-PlayerName = CAD
+	PlayerName = CAD
 
 
 ;===========================================================================================
 ;====  DO NOT EDIT BELOW HERE  =============================================================
 ;===========================================================================================
 
-TaskbarHeight 	= (#SCREENAREAHEIGHT#-#WORKAREAHEIGHT#)
-TaskbarWidth	= (#SCREENAREAWIDTH#-#WORKAREAWIDTH#)
-LocationX		= (#WORKAREAWIDTH#-#BarW#)
-LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
+	TaskbarHeight 	= (#SCREENAREAHEIGHT#-#WORKAREAHEIGHT#)
+	TaskbarWidth	= (#SCREENAREAWIDTH#-#WORKAREAWIDTH#)
+	LocationX		= (#WORKAREAWIDTH#-#BarW#)
+	LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
 
 
-ClockH		=106
-CalenderH	=100
-SystemH		=80
-NetworkH	=70
+	ClockH		=104
+	CalenderH	=100
+	SystemH		=80
+	NetworkH	=70
+	BatteryH    =61
 
 
 ;===========================================================
