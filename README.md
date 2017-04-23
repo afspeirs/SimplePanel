@@ -7,4 +7,4 @@ mklink /D "C:\Users\USER\Documents\Rainmeter\Skins\SimplePanel" "C:\git\SimplePa
 ```
 
 Known issues:
-* The weather skin will display odd characters, instead of the degree symbol (°), if not saved in ANSI format.
+* The weather skin will display odd characters, instead of the degree symbol (°), if not saved in ANSI (Windows 1252) format.
