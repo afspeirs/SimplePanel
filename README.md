@@ -5,3 +5,6 @@ Create a symbolic link to the documents folder. (Replace USER with your Windows 
 ```
 mklink /D "C:\Users\USER\Documents\Rainmeter\Skins\SimplePanel" "C:\git\SimplePanel"
 ```
+
+Known issues:
+* The weather skin will display odd characters, instead of the degree symbol (°), if not saved in ANSI format.
