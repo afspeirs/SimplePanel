@@ -11,9 +11,9 @@
 	PlayerName  =CAD
 	Location	=Poynton
 	Unit		=C
-	Disk1		= C
-	Disk2		= F
-	Disk3		= G
+	Disk1		=C
+	Disk2		=F
+	Disk3		=G
 
 	MainColour  =FF8000
 	FontColour  =FCFCFC
@@ -35,12 +35,12 @@
 	LocationX		= (#WORKAREAWIDTH#-#BarW#)
 	LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
 
-	ClockH		=104
-	CalenderH	=100
-	DiskH 		=45
-	SystemH		=80
-	NetworkH	=80
-	WeatherH	=119
+	ClockH		= 104
+	CalenderH	= 100
+	DiskH 		= 45
+	SystemH		= 80
+	NetworkH	= 80
+	WeatherH	= 119
 
 	LocationY1  =0
 	LocationY2  =(#LocationY1#+#ClockH#)
