@@ -15,8 +15,8 @@
 	Disk2		= F
 	Disk3		= G
 
-	MainColour  = FF8000
-	FontColour  = FCFCFC
+	MainColour  =FF8000
+	FontColour  =FCFCFC
 
 ;===========================================================================================
 ;====  DO NOT EDIT BELOW HERE  =============================================================
