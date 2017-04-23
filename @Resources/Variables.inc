@@ -8,15 +8,15 @@
 ;===========================================================================================
 
 [Variables]
-	PlayerName  =CAD
-	Location	=Poynton
-	Unit		=C
-	Disk1		=C
-	Disk2		=F
-	Disk3		=G
-
 	MainColour  =FF8000
 	FontColour  =FCFCFC
+	PlayerName  =CAD
+	Location    =Poynton
+	Unit        =C
+	Disk        =C
+	Disk2       =F
+	Disk3       =G
+
 
 ;===========================================================================================
 ;====  DO NOT EDIT BELOW HERE  =============================================================
@@ -30,17 +30,17 @@
 	BackColour  = 0,0,0,1
 	BarColour   = 0,0,0,110
 
-	TaskbarHeight 	= (#SCREENAREAHEIGHT#-#WORKAREAHEIGHT#)
-	TaskbarWidth	= (#SCREENAREAWIDTH#-#WORKAREAWIDTH#)
-	LocationX		= (#WORKAREAWIDTH#-#BarW#)
+	TaskbarHeight   = (#SCREENAREAHEIGHT#-#WORKAREAHEIGHT#)
+	TaskbarWidth    = (#SCREENAREAWIDTH#-#WORKAREAWIDTH#)
+	LocationX       = (#WORKAREAWIDTH#-#BarW#)
 	LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
 
-	ClockH		= 104
-	CalenderH	= 100
-	DiskH 		= 45
-	SystemH		= 80
-	NetworkH	= 80
-	WeatherH	= 119
+	ClockH      = 104
+	CalenderH   = 100
+	DiskH       = 45
+	SystemH     = 80
+	NetworkH    = 80
+	WeatherH    = 119
 
 	LocationY1  =0
 	LocationY2  =(#LocationY1#+#ClockH#)
