@@ -1,5 +1,5 @@
 [Rainmeter]
-; 	RightMouseUpAction=!SkinCustomMenu
+	; RightMouseUpAction=!SkinCustomMenu
 	ContextTitle=Open Settings 
 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
 
@@ -36,8 +36,8 @@
 ;==   Weather   ===================================================================
 ;==================================================================================
 
-	Location	= poynton
-	Units		= c
+	Location	= Poynton
+	Units		= C
 
 
 ;==================================================================================
