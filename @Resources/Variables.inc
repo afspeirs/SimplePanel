@@ -13,7 +13,7 @@
 	PlayerName  =CAD
 	Location    =Poynton
 	Unit        =C
-	Disk        =C
+	Disk1       =C
 	Disk2       =F
 	Disk3       =G
 
