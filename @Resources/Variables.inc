@@ -65,7 +65,6 @@ Units		= c
 	DiskH 		=45
 	SystemH		=80
 	NetworkH	=70
-	BatteryH    =61
 	WeatherH	=119
 
 
