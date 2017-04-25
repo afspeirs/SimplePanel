@@ -36,21 +36,21 @@
 	LocationX       = (#WORKAREAWIDTH#-#BarW#)
 	LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
 
-	ClockH      = 104
 	CalenderH   = 100
+	ClockH      = 104
 	DiskH       = 45
-	SystemH     = 80
 	NetworkH    = 80
+	SystemH     = 80
 	WeatherH    = 119
 
-	Location1   =
-	Location2   =
-	Location3   =
-	Location4   =
-	Location5   =
-	Location6   =
-	Location7   =
-	Location8   =
+	LocationCalendar = 2
+	LocationClock    = 1
+	LocationDisk1    = 4
+	LocationDisk2    = 
+	LocationDisk3    = 
+	LocationNetwork  = 
+	LocationSystem   = 3
+	LocationWeather  = 5
 
 	LocationY1  =0
 	LocationY2  =(#LocationY1#+#ClockH#)
