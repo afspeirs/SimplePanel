@@ -37,7 +37,7 @@
 	LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
 
 	CalenderH   = 100
-	ClockH      = 104
+	ClockH      = 106
 	DiskH       = 45
 	NetworkH    = 80
 	SystemH     = 80
