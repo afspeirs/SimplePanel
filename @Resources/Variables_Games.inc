@@ -1,8 +1,8 @@
 [Rainmeter]
 	ContextTitle   =Small
-	ContextAction  =[!SetOption Game W "#SmallW#"][!SetOption Game H "#SmallH#"][!UpdateMeter Game][!Redraw]
+	ContextAction  =[!WriteKeyValue "Game" "W" "#SmallW#" "#@#Variables_Games.inc"][!WriteKeyValue "Game" "H" "#SmallH#" "#@#Variables_Games.inc"][!RefreshApp]
 	ContextTitle2  =Large
-	ContextAction2 =[!SetOption Game W "#LargeW#"][!SetOption Game H "#LargeH#"][!UpdateMeter Game][!Redraw]
+	ContextAction2 =[!WriteKeyValue "Game" "W" "#LargeW#" "#@#Variables_Games.inc"][!WriteKeyValue "Game" "H" "#LargeH#" "#@#Variables_Games.inc"][!RefreshApp]
 
 ;==================================================================================
 ;==   Variables   =================================================================
@@ -36,6 +36,8 @@ X=0
 Y=0
 W=#SmallW#
 H=#SmallH#
+; W=#SmallW#
+; H=#SmallH#
 ; W=#LargeW#
 ; H=#LargeH#
 SolidColor=0,0,0,50
