@@ -2,6 +2,7 @@
 	; RightMouseUpAction=!SkinCustomMenu
 	ContextTitle=Open Settings
 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
+	DynamicVaribles=1
 
 ;===========================================================================================
 ;====  Variables  ==========================================================================
@@ -43,32 +44,41 @@
 	SystemH     = 80
 	WeatherH    = 119
 
-	LocationCalendar = 2
-	LocationClock    = 1
-	LocationDisk1    = 4
-	LocationDisk2    = 5
-	LocationDisk3    = 6
-	LocationNetwork  = 8
-	LocationSystem   = 3
-	LocationWeather  = 7
+	LocationCalendar =2
+	LocationClock    =1
+	LocationDisk1    =4
+	LocationDisk2    =5
+	LocationDisk3    =6
+	LocationNetwork  =8
+	LocationSystem   =3
+	LocationWeather  =7
 
-	LocationY1  =0
-	LocationY2  =(#LocationY1#+#ClockH#)
-	LocationY3  =(#LocationY2#+#CalenderH#)
-	LocationY4  =(#LocationY3#+#SystemH#)
-	LocationY5  =(#LocationY4#+#DiskH#)
-	LocationY6  =(#LocationY5#+#DiskH#)
-	LocationY7  =(#LocationY6#+#DiskH#)
-	LocationY8  =(#LocationY7#+#WeatherH#)
+	LocationY1 =0
+	LocationY2 =106
+	LocationY3 =100
+	LocationY4 =80
+	LocationY5 =45
+	LocationY6 =45
+	LocationY7 =45
+	LocationY8 =119
 
-	LocationYCalender =#LocationY2#
-	LocationYClock    =#LocationY1#
-	LocationYDisk1    =#LocationY4#
-	LocationYDisk2    =#LocationY5#
-	LocationYDisk3    =#LocationY6#
-	LocationYNetwork  =#LocationY8#
-	LocationYSystem   =#LocationY3#
-	LocationYWeather  =#LocationY7#
+	LocationY1Total = #LocationY1#
+	LocationY2Total = #LocationY1# + #LocationY2#
+	LocationY3Total = #LocationY1# + #LocationY2# + #LocationY3#
+	LocationY4Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4#
+	LocationY5Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5#
+	LocationY6Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6#
+	LocationY7Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7#
+	LocationY8Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7# + #LocationY8#
+
+	LocationYCalender =[#LocationY[#LocationCalendar]Total]
+	LocationYClock    =[#LocationY[#LocationClock]Total]
+	LocationYDisk1    =[#LocationY[#LocationDisk1]Total]
+	LocationYDisk2    =[#LocationY[#LocationDisk2]Total]
+	LocationYDisk3    =[#LocationY[#LocationDisk3]Total]
+	LocationYNetwork  =[#LocationY[#LocationNetwork]Total]
+	LocationYSystem   =[#LocationY[#LocationSystem]Total]
+	LocationYWeather  =[#LocationY[#LocationWeather]Total]
 
 
 ;===========================================================
