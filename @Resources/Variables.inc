@@ -53,23 +53,23 @@
 	LocationSystem   =3
 	LocationWeather  =7
 
-	LocationY1 =0
-	LocationY2 =106
-	LocationY3 =100
-	LocationY4 =80
+	LocationY1 =106
+	LocationY2 =100
+	LocationY3 =80
+	LocationY4 =45
 	LocationY5 =45
 	LocationY6 =45
-	LocationY7 =45
-	LocationY8 =119
+	LocationY7 =119
+	LocationY8 =80
 
-	LocationY1Total = #LocationY1#
-	LocationY2Total = #LocationY1# + #LocationY2#
-	LocationY3Total = #LocationY1# + #LocationY2# + #LocationY3#
-	LocationY4Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4#
-	LocationY5Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5#
-	LocationY6Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6#
-	LocationY7Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7#
-	LocationY8Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7# + #LocationY8#
+	LocationY1Total = 0
+	LocationY2Total = #LocationY1#
+	LocationY3Total = #LocationY1# + #LocationY2#
+	LocationY4Total = #LocationY1# + #LocationY2# + #LocationY3#
+	LocationY5Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4#
+	LocationY6Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5#
+	LocationY7Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6#
+	LocationY8Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7#
 
 	LocationYCalender =[#LocationY[#LocationCalendar]Total]
 	LocationYClock    =[#LocationY[#LocationClock]Total]
