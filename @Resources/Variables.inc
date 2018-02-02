@@ -1,5 +1,5 @@
 [Rainmeter]
-	; RightMouseUpAction=!SkinCustomMenu
+	RightMouseUpAction=!SkinCustomMenu
 	ContextTitle=Open Settings
 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
 	DynamicVaribles=1
@@ -18,11 +18,6 @@
 	Disk2       =N
 	Disk3       =O
 
-
-;===========================================================================================
-;====  DO NOT EDIT BELOW HERE  =============================================================
-;===========================================================================================
-
 	BarW        = 250
 	Font        = Bebas Neue Bold
 	FontLight   = Bebas Neue Regular
@@ -31,6 +26,11 @@
 	xOffset     = 30
 	BackColour  = 0,0,0,1
 	BarColour   = 0,0,0,110
+
+
+;===========================================================================================
+;====  DO NOT EDIT BELOW HERE  =============================================================
+;===========================================================================================
 
 	TaskbarHeight   = (#SCREENAREAHEIGHT#-#WORKAREAHEIGHT#)
 	TaskbarWidth    = (#SCREENAREAWIDTH#-#WORKAREAWIDTH#)
@@ -71,14 +71,14 @@
 	LocationY7Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6#
 	LocationY8Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7#
 
-	LocationYCalender =[#LocationY[#LocationCalendar]Total]
-	LocationYClock    =[#LocationY[#LocationClock]Total]
-	LocationYDisk1    =[#LocationY[#LocationDisk1]Total]
-	LocationYDisk2    =[#LocationY[#LocationDisk2]Total]
-	LocationYDisk3    =[#LocationY[#LocationDisk3]Total]
-	LocationYNetwork  =[#LocationY[#LocationNetwork]Total]
-	LocationYSystem   =[#LocationY[#LocationSystem]Total]
-	LocationYWeather  =[#LocationY[#LocationWeather]Total]
+	LocationYCalender = [#LocationY[#LocationCalendar]Total]
+	LocationYClock    = [#LocationY[#LocationClock]Total]
+	LocationYDisk1    = [#LocationY[#LocationDisk1]Total]
+	LocationYDisk2    = [#LocationY[#LocationDisk2]Total]
+	LocationYDisk3    = [#LocationY[#LocationDisk3]Total]
+	LocationYNetwork  = [#LocationY[#LocationNetwork]Total]
+	LocationYSystem   = [#LocationY[#LocationSystem]Total]
+	LocationYWeather  = [#LocationY[#LocationWeather]Total]
 
 
 ;===========================================================
