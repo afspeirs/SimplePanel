@@ -1,5 +1,5 @@
 [Rainmeter]
-	RightMouseUpAction=!SkinCustomMenu
+	; RightMouseUpAction=!SkinCustomMenu
 	ContextTitle=Open Settings
 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
 	DynamicVaribles=1
