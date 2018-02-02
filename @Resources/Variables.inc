@@ -1,6 +1,6 @@
 [Rainmeter]
 	; RightMouseUpAction=!SkinCustomMenu
-	ContextTitle=Open Settings 
+	ContextTitle=Open Settings
 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
 
 ;===========================================================================================
@@ -14,8 +14,8 @@
 	Location    =Poynton
 	Unit        =C
 	Disk1       =C
-	Disk2       =F
-	Disk3       =G
+	Disk2       =N
+	Disk3       =O
 
 
 ;===========================================================================================
@@ -46,11 +46,11 @@
 	LocationCalendar = 2
 	LocationClock    = 1
 	LocationDisk1    = 4
-	LocationDisk2    = 
-	LocationDisk3    = 
-	LocationNetwork  = 
+	LocationDisk2    = 5
+	LocationDisk3    = 6
+	LocationNetwork  = 8
 	LocationSystem   = 3
-	LocationWeather  = 5
+	LocationWeather  = 7
 
 	LocationY1  =0
 	LocationY2  =(#LocationY1#+#ClockH#)
