@@ -32,12 +32,12 @@
 ;====  DO NOT EDIT BELOW HERE  =============================================================
 ;===========================================================================================
 
-	TaskbarHeight   = (#SCREENAREAHEIGHT#-#WORKAREAHEIGHT#)
-	TaskbarWidth    = (#SCREENAREAWIDTH#-#WORKAREAWIDTH#)
-	LocationX       = (#WORKAREAWIDTH#-#BarW#)
-	LocationTaskbar = (#SCREENAREAY#+(#SCREENAREAHEIGHT#)-(#TaskbarHeight#))
+	TaskbarHeight   = (#SCREENAREAHEIGHT# - #WORKAREAHEIGHT#)
+	TaskbarWidth    = (#SCREENAREAWIDTH# - #WORKAREAWIDTH#)
+	LocationX       = (#WORKAREAWIDTH# - #BarW#)
+	LocationTaskbar = (#SCREENAREAY# + #SCREENAREAHEIGHT# - #TaskbarHeight#)
 
-	CalenderH   = 100
+	CalenderH   = 98
 	ClockH      = 106
 	DiskH       = 45
 	NetworkH    = 80
@@ -54,7 +54,7 @@
 	LocationWeather  =7
 
 	LocationY1 =106
-	LocationY2 =100
+	LocationY2 =98
 	LocationY3 =80
 	LocationY4 =45
 	LocationY5 =45
