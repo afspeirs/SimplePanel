@@ -41,6 +41,7 @@
 	ClockH      = 106
 	DiskH       = 45
 	NetworkH    = 80
+	PowerH      = 45
 	SystemH     = 80
 	WeatherH    = 119
 
@@ -49,10 +50,13 @@
 	LocationDisk1    =4
 	LocationDisk2    =5
 	LocationDisk3    =6
+	LocationPower    =9
 	LocationNetwork  =8
 	LocationSystem   =3
 	LocationWeather  =7
 
+	; LocationY0 is only used to null the placement
+	LocationY0 =106
 	LocationY1 =106
 	LocationY2 =98
 	LocationY3 =80
@@ -61,6 +65,7 @@
 	LocationY6 =45
 	LocationY7 =119
 	LocationY8 =80
+	LocationY9 =45
 
 	LocationY1Total = 0
 	LocationY2Total = #LocationY1#
@@ -70,12 +75,14 @@
 	LocationY6Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5#
 	LocationY7Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6#
 	LocationY8Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7#
+	LocationY9Total = #LocationY1# + #LocationY2# + #LocationY3# + #LocationY4# + #LocationY5# + #LocationY6# + #LocationY7# + #LocationY8#
 
 	LocationYCalender = [#LocationY[#LocationCalendar]Total]
 	LocationYClock    = [#LocationY[#LocationClock]Total]
 	LocationYDisk1    = [#LocationY[#LocationDisk1]Total]
 	LocationYDisk2    = [#LocationY[#LocationDisk2]Total]
 	LocationYDisk3    = [#LocationY[#LocationDisk3]Total]
+	LocationYPower    = [#LocationY[#LocationPower]Total]
 	LocationYNetwork  = [#LocationY[#LocationNetwork]Total]
 	LocationYSystem   = [#LocationY[#LocationSystem]Total]
 	LocationYWeather  = [#LocationY[#LocationWeather]Total]
