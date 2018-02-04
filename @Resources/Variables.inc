@@ -50,13 +50,14 @@
 	LocationDisk1    =4
 	LocationDisk2    =5
 	LocationDisk3    =6
-	LocationPower    =9
+	LocationPower    =-1
 	LocationNetwork  =8
 	LocationSystem   =3
 	LocationWeather  =7
 
+	LocationY-1=45
 	; LocationY0 is only used to null the placement
-	LocationY0 =106
+	LocationY0 =0
 	LocationY1 =106
 	LocationY2 =98
 	LocationY3 =80
@@ -67,6 +68,7 @@
 	LocationY8 =80
 	LocationY9 =45
 
+	LocationY-1Total = (#WORKAREAY# + #WORKAREAHEIGHT# - #LocationY-1#)
 	LocationY1Total = 0
 	LocationY2Total = #LocationY1#
 	LocationY3Total = #LocationY1# + #LocationY2#
