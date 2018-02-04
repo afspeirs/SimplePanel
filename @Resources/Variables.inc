@@ -11,7 +11,7 @@
 [Variables]
 	MainColour  =FF8000
 	FontColour  =FCFCFC
-	PlayerName  =CAD
+	PlayerName  =Spotify
 	Location    =Poynton
 	Unit        =C
 	Disk1       =C
