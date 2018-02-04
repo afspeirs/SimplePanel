@@ -40,6 +40,7 @@
 	CalenderH   = 98
 	ClockH      = 106
 	DiskH       = 45
+	MusicH      = 250
 	NetworkH    = 80
 	PowerH      = 45
 	SystemH     = 80
