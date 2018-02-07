@@ -53,6 +53,3 @@ Shows the CPU and RAM usage, also displays a graph on click.
 A simple skin displaying the weather. The location and unit are configurable in the Settings skin
 
 ![Weather](./@Screenshots/Weather.png)
-
-## Known issues:
-* The weather skin will display odd characters, instead of the degree symbol (°), if not saved in ANSI (Windows 1252) format.
