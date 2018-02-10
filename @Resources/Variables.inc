@@ -1,5 +1,5 @@
 [Rainmeter]
-	; RightMouseUpAction=!SkinCustomMenu
+	RightMouseUpAction=!SkinCustomMenu
 	ContextTitle=Open Settings
 	ContextAction=[!ActivateConfig "#ROOTCONFIG#\Settings" "Settings.ini"]
 	DynamicVaribles=1
@@ -48,23 +48,23 @@
 
 	LocationCalendar =2
 	LocationClock    =1
-	LocationDisk1    =4
+	LocationDisk1    =5
 	LocationDisk2    =0
 	LocationDisk3    =0
 	LocationMusic    =-2
-	LocationNetwork  =0
+	LocationNetwork  =4
 	LocationPower    =-1
 	LocationSystem   =3
-	LocationWeather  =5
+	LocationWeather  =6
 
 	; LocationY0 is only used to null the placement
 	LocationY0 =0
 	LocationY1 =106
 	LocationY2 =98
 	LocationY3 =80
-	LocationY4 =45
-	LocationY5 =119
-	LocationY6 =45
+	LocationY4 =80
+	LocationY5 =45
+	LocationY6 =119
 	LocationY7 =119
 	LocationY8 =80
 	LocationY9 =45
