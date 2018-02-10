@@ -27,6 +27,20 @@ A simple clock skin that shows the time. It shows the seconds on hover.
 ![Disk Name](./@Screenshots/Disk-name.png)
 ![Disk Space](./@Screenshots/Disk-space.png)
 
+### Music Side
+A skin that shows now playing music. (Supports Spotify)
+
+![MusicSide](./@Screenshots/MusicSide.png)
+![MusicSide Hover](./@Screenshots/MusicSide-hover.png)
+
+### Music Taskbar
+A skin that shows the now playing music in the taskbar. (Supports Spotify)
+
+![MusicTaskbar](./@Screenshots/MusicTaskbar.png)
+
+It also supports small icons:
+
+![MusicTaskbar Small](./@Screenshots/MusicTaskbar-small.png)
 ### Network
 A skin that shows the upload and download speed of the network, also displays a graph on click.
 
