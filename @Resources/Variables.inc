@@ -9,15 +9,7 @@
 ;===========================================================================================
 
 [Variables]
-	MainColour  =FF8000
-	FontColour  =FCFCFC
-	PlayerName  =Spotify
-	Location    =Poynton
-	Unit        =C
-	Disk1       =C
-	Disk2       =N
-	Disk3       =O
-
+	@include    = #@#UserSettings.inc
 	BarW        = 250
 	Font        = Bebas Neue Bold
 	FontLight   = Bebas Neue Regular
@@ -45,31 +37,6 @@
 	PowerH      = 45
 	SystemH     = 80
 	WeatherH    = 119
-
-	LocationCalendar =2
-	LocationClock    =1
-	LocationDisk1    =4
-	LocationDisk2    =0
-	LocationDisk3    =0
-	LocationMusic    =-2
-	LocationNetwork  =0
-	LocationPower    =-1
-	LocationSystem   =3
-	LocationWeather  =5
-
-	; LocationY0 is only used to null the placement
-	LocationY0 =0
-	LocationY1 =106
-	LocationY2 =98
-	LocationY3 =80
-	LocationY4 =45
-	LocationY5 =119
-	LocationY6 =119
-	LocationY7 =119
-	LocationY8 =80
-	LocationY9 =45
-	LocationY-1=45
-	LocationY-2=250
 
 	LocationY1Total = 0
 	LocationY2Total = (#LocationY1#)
